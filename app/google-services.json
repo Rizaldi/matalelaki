@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "721660451309",
+    "firebase_url": "https://matalelaki-55b2d.firebaseio.com",
+    "project_id": "matalelaki-55b2d",
+    "storage_bucket": "matalelaki-55b2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721660451309:android:7a40e208e6fbd211",
+        "android_client_info": {
+          "package_name": "com.radiomatalelaki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721660451309-qncvk98d3fpvuvjc7584c043o586d6jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDayed2Pnpg22ZOD4gXw5CCfH-aJBg_kO8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

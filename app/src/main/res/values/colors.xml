@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#131940</color>
+    <color name="colorPrimaryDark">#131940</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFF</color>
+
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+
+    <color name="black_overlay">#cc000000</color>
+    <color name="main_color">#131940</color>
+    <color name="light_main_color">#131940</color>
+    <color name="default_button_color">#553CB371</color>
+    <color name="default_button_color_pressed">#223CB371</color>
+    <color name="dark_grey_color">#444444</color>
+    <color name="black_color">#222</color>
+    <color name="grey_color">#777777</color>
+    <color name="light_grey_color">#aaaaaa</color>
+    <color name="activity_background_color">#f4f4f4</color>
+    <color name="bar_title_color">#fafafa</color>
+</resources>

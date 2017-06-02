@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <!-- Bottom 2dp Shadow -->
+    <item>
+        <shape  android:shape="rectangle">
+ 
+            <gradient 
+		        android:angle="0"
+		        android:width="6dp"
+		        android:centerX="0.9"
+		        android:startColor="#f666"
+		        android:centerColor="#f666"
+		        android:endColor="#0fff"
+		        android:type="linear" />
+ 
+        </shape>
+    </item>
+ 
+    <!-- White Top color -->
+    <item android:right="6dp">
+ 
+        <shape  android:shape="rectangle">
+ 
+        <solid android:color="#FFFFFF" />
+ 
+ 
+        </shape>
+ 
+    </item>
+ 
+</layer-list>

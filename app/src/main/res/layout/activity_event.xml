@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    android:orientation="vertical">
+
+    <!-- TOP BAR -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_height"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/topLogoContainer"
+            android:layout_width="@dimen/top_bar_height"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:background="@color/main_color">
+
+            <!-- PLACE YOUR LOGO HERE, CHANGING @drawable/your_logo_here REFERENCE -->
+            <!--<ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/topLogoImage"
+                android:scaleType="fitCenter"
+                android:src="@drawable/your_logo_here" />-->
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/topBar"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:orientation="vertical"
+            android:background="@color/main_color">
+
+            <!-- ACTIVITY TITLE -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/top_bar_title_height"
+                android:gravity="center"
+                android:paddingRight="@dimen/top_bar_height"
+                android:textColor="@color/bar_title_color"
+                android:id="@+id/barTitle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="@color/light_main_color"
+                android:id="@+id/barInputRow">
+
+                <EditText
+                    android:id="@+id/searchTextEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/input_padding_horizontal"
+                    android:paddingRight="@dimen/input_padding_horizontal"
+                    android:background="@null"
+                    android:ems="10"
+                    android:hint="@string/writeHere"
+                    android:imeActionLabel="@string/search"
+                    android:singleLine="true"
+                    android:textSize="@dimen/top_bar_input_text_size" />
+
+                <Button
+                    android:id="@+id/buttonSearch"
+                    android:layout_width="@dimen/top_bar_height"
+                    android:layout_height="match_parent"
+                    android:text="@string/search"
+                    android:textColor="@color/dark_grey_color"
+                    android:textSize="@dimen/top_bar_input_text_size"
+                    android:background="@drawable/button_default" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- END TOP BAR -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:background="@color/activity_background_color"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/admob_banner_home">
+            </com.google.android.gms.ads.AdView>
+
+            <!-- CONTENT FOR THE TAB BAR SELECTED FRAGMENT -->
+            <FrameLayout
+                android:id="@+id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/activity_background_color"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/activity_background_color" >
+                </FrameLayout>
+
+                <!-- CURRENT DISTANCE -->
+                <TextView
+                    android:id="@+id/actDistanceLabel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/actDistance"
+                    android:textColor="#666"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:id="@+id/rangeBox"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="0dp" >
+
+                    <TextView
+                        android:id="@+id/minDistanceLabel"
+                        android:layout_width="56dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="right"
+                        android:layout_marginBottom="6dp"
+                        android:paddingLeft="4dp"
+                        android:text="@string/minDistance"
+                        android:textColor="#666" />
+
+                    <!-- RADIUS RANGE BAR -->
+                    <SeekBar
+                        android:id="@+id/seekBarRange"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:max="5000"
+                        android:maxHeight="3dp"
+                        android:minHeight="3dp"
+                        android:progress="1500"
+                        android:layout_marginBottom="4dp"
+                        android:progressDrawable="@drawable/progressbar" />
+
+                    <TextView
+                        android:id="@+id/maxDistanceLabel"
+                        android:layout_width="56dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:paddingRight="6dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/maxDistance"
+                        android:textColor="#666" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- HELP VIEW -->
+        <RelativeLayout
+            android:id="@+id/helpView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/black_overlay" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <!-- TITLE FOR THE HELP OVERLAY VIEW -->
+                <TextView
+                    android:id="@+id/helpTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="15dp"
+                    android:text="@string/helpTitle"
+                    android:textColor="@color/light_main_color"
+                    android:textSize="@dimen/intro_title_font_size" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/top_bar_height"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_action_up" />
+
+                    <TextView
+                        android:id="@+id/helpDescr1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/helpDescr1"
+                        android:textColor="@color/light_main_color"
+                        android:textSize="@dimen/intro_help_font_size" />
+
+                </LinearLayout>
+
+                <!-- BUTTON "START VISIT", HIDES HELP VIEW -->
+                <Button
+                    android:id="@+id/startButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@color/main_color"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/startButton"
+                    android:textColor="@drawable/introbutton_text_color"
+                    android:textSize="@dimen/intro_button_font_size" />
+
+                <LinearLayout
+                    android:id="@+id/bottomDescr"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/helpDescr2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/helpDescr2"
+                            android:textColor="@color/light_main_color"
+                            android:textSize="@dimen/intro_help_font_size" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_action_down" />
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/helpDescr3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/helpDescr3"
+                        android:textColor="@color/light_main_color"
+                        android:textSize="@dimen/intro_help_font_size" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_action_down" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!-- TABHOST -->
+    <android.support.v4.app.FragmentTabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TabWidget
+        	android:id="@+id/tabs"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+            android:divider="@null"
+        	android:layout_weight="0" />
+    </android.support.v4.app.FragmentTabHost>
+
+</LinearLayout>

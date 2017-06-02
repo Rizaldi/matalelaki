@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_menu">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_marginTop="10dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Nama lengkap"
+                    android:id="@+id/et_nama"
+                    android:layout_marginBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:hint="Email"
+                    android:id="@+id/et_email"
+                    android:layout_marginBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/sp_prefix_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:spinnerMode="dialog"
+                android:theme="@android:style/Theme.Holo"
+                android:backgroundTint="@color/white"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="Password"
+                    android:id="@+id/et_password"
+                    android:layout_marginBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="Konfirmasi Password"
+                    android:id="@+id/et_konf_password"
+                    android:layout_marginBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:hint="No Ponsel"
+                    android:id="@+id/et_nohp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:hint="Tanggal lahir"
+                    android:id="@+id/et_tgl_lahir"
+                    android:layout_marginBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdoGender"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <RadioButton
+                    android:id="@+id/rdo_pria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="pria"
+                    android:layout_marginRight="60dp"
+                    android:textColor="@color/colorPrimary"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/rdo_wanita"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="wanita"
+                    android:textColor="@color/colorPrimary"/>
+
+            </RadioGroup>
+
+            <Spinner
+                android:id="@+id/sp_jenis_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:theme="@android:style/Theme.Holo"
+                android:spinnerMode="dialog"
+                android:backgroundTint="@color/colorPrimary"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:hint="No ID"
+                    android:id="@+id/et_no_id"
+                    android:layout_marginBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <CheckBox
+                android:text="Syarat Ketentuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbx_setuju"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimary" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_reg_member"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/common_google_signin_btn_icon_light"
+                android:padding="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:text="Register"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+    <TextView
+        android:id="@+id/txt_push_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:textSize="26dp"/>
+
+    <TextView
+        android:id="@+id/txt_reg_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+</android.support.design.widget.CoordinatorLayout>

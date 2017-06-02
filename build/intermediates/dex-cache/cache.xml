@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\17bc6e53b33e918df2b9a214f8f0c031b31fc92b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_d644d9c49407db5e38bcfe50e5ceaaab273deb33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\f6b38648fe26d87555fe8e057191711b46a3bcd8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_c732f0b33ef8a86f7383115df79cdae9b5f2ec8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\759318e4ef7d7a0b74a969a8a0d145914f744478\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_c2a68bf3bc43e301132ea810cc0053747a662e48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\okhttp-3.2.0_39e1472068d341ce0d4cd3234dc304e7ac598a03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\0492cbda154f027288cd4a258a95fc9461e09135\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_cd9fa92553f7fff81e1f72af646da709072409ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\335b93060c059f7ca9e78efb79fbd5e7e9c21a75\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_a8545d4161f9afbd549d6fc37a463230209bfa2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\db97cf88650acf4ce377ac06fe29ee09e1598aa6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_c6be52fcde1fb316ea51e273ee3d7a3529dbb1fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\b3b43e05e08677a90286327b23b30767f9648526\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bfd85a88cf976eb2c54507cc914d8e8914c2f71e">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_ae926c7f9fd7545114b9f2f9bbc0a67da85ae49d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_8abbded7146a47096c756f938b23b492e430d99a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\b317e3910df7af5a7abc35d4a1ed84e52a5cce2c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_7c04a7bf494a76fe3242115ac3afbcd04a50b023.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\5f6a20a91981f9c54bbfc026c895e4fd545b8656\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_bf174e984c0748ef8ffad83a16879e4bf431a144.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\0c1080775fdede101d7546dec3c63848312f2f05\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_78bcf9f63a7abe342af93d139ddbbf20bfa4f393.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\37133f589544584c97a1e405da40c7549fbb8c35\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_a240825bca44568039212e1b2951d67c24afd0f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\e22ce7a93256f07624e8e5d4bd74e6aece42604e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_3a7a2df194fa7ee4e773df81c4410ab3bec3a01d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\f64a14b757b7f9a6f8ec12f8d73019ac238fe47f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_30996def9ab0e6fc0b5c18139a7de89757c4448a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\aadc7ce71710e514d0f4ba3de0d1f531feaec18b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_a440f4bebcc85daf5c54b56ac44266f946ef1a08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\gson-2.3_6f9195984eab80c22e7fd485a7426e71547c3e71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\fee660595e87ae6787606665238672a6ef6d56b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="60d0e28fe7ab6da6c03b54cd8ede502284d51a81">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_54af45ff0092057cde14d98d9efe1221458f9804.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\620afbce2611cdd642a236e522033eae519bc0ee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_aa49d3fc0e1e1c7f7c5f76ac883ae0ab5db6cfb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\23a6b73071a80af73415ffd1fdf62096d15af733\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e54ea31584406fcc68225a8656f384c333ff2ee">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_821c385f1b0debf85f24237a767be4c7489b1c1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\3c542b9957fff151c24166f82f92e2bb087b0716\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_9076f258fd5580a316e6db63dfbb7f78374c9f4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\okio-1.6.0_a2694c145f224624fe51c934bfe30a32be9721e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\b036247b6620bd013811204c0f154b3eca7466a5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_f2129a0d12d3623ae510ac0d03c0a18ab77fba5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\e7ad49b5b88da39e424f2c1f9d9e62afd3f5342f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_e4ee2ec3ce35dd76161ed64f16429a8f61b3d25e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\bfbf2f475c502f9644795ff50b7f5ba554a832d6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_c0ddd13f0115071a0b9ea69c7bfcf81de0a1f7b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\6271d6381bb4ef1ac64a15a8743a701d18a59f35\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_1a6b855ee4e124edec284833df7c1bb9b8c5315d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\75c6b4f741bca7d408981abd6f6dd51ddc84cf1e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_81e972b8a55af378fb03cb0677ce072308d49eb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\4488e1285629034d0d6f0fe14addf29270714fd1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_41ad8762d276b1f21fa47ea79fd3a3cefa1809f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\aed7a9dfff8a78c84457551d313c5dd710b31ed0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_c01d1809a15d25ed47d499c96b61ba5ccec91d6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\3c5722aca25cf8d8af9c1151856705cd0b3895ec\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_e13923e36ac3c43541b09ba0d86ef8060f599aec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.0_ee6ab5b5c46b172d4e9d2a1efd72dfcc93409377.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\4cd53fc8bd4e103f026f2b0b6658f8c7b8dfd30b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_7852b0e3eba1841361a91f69fccfd3ec58af388b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.android\build-cache\d7b01954378c0c545cce379d5635852a9375f7e4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\classes_0e8cd4e8955934e04bcaff34b10c546aaff2d86f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rizaldi\.gradle\caches\modules-2\files-2.1\com.dubsmash.volley\library\2.0.1\8b2572dd32db404209ac150a0a0ef38bc45316cc\library-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8b2572dd32db404209ac150a0a0ef38bc45316cc">
+        <dex dex="F:\android_project\rian\app\build\intermediates\pre-dexed\debug\library-2.0.1_54aa57ff8c742672918bfed0fa1d0f68b221adb8.jar" />
+    </item>
+
+</items>
