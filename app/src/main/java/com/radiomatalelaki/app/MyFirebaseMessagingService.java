@@ -87,6 +87,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService impleme
     public void onMessageReceived(RemoteMessage remoteMessage) {
         Log.e(TAG, "From: " + remoteMessage.getFrom());
 
+//        showNotificationMessage(remoteMessage.getData().get("message"));
         gps = new TrackGPS(getApplicationContext());
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         Criteria criteria = new Criteria();
@@ -162,7 +163,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService impleme
 //                        }
 //                    }
 //                });
-        JsonArrayRequest req = new JsonArrayRequest(Request.Method.POST, "http://api.mantheqabaidha.com/api/event", (String) null,
+        JsonArrayRequest req = new JsonArrayRequest(Request.Method.POST, "http://sandbox.arfha.id/api/event", (String) null,
                 new Response.Listener<JSONArray>() {
                     @Override
                     public void onResponse(JSONArray response) {
@@ -215,14 +216,22 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService impleme
         distance2.setLongitude(Double.parseDouble(String.valueOf(lng_api)));
 
         int jarak = Integer.parseInt(String.valueOf(calculateDistance(distance1,distance2)));
-            Log.e("dis","jarak"+ jarak + ", around"+ around);
+            Log.e("dis","jarak"+ jarak + " lebih dari around"+ around);
         if (jarak >= around){
             Log.e("status","ngelebihin");
-        }else if(around == 30000){
-            showNotificationMessage(remoteMessage.getData().get("message"));
+            if(around == 30000){
+                Log.e("status","yang all");
+                showNotificationMessage(remoteMessage.getData().get("message"));
+            }
         }
         else{
-            showNotificationMessage(remoteMessage.getData().get("message"));
+            Log.e("status","di dalem around");
+            if(around == 30000){
+                Log.e("status","yang all");
+                showNotificationMessage(remoteMessage.getData().get("message"));
+            }else {
+                showNotificationMessage(remoteMessage.getData().get("message"));
+            }
         }
 //        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
 //            @Override
